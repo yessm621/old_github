@@ -5,6 +5,8 @@ date:   2021-03-29 20:15:00 +0530
 categories: Django Python
 ---
 
+<br>
+
 ## Pipenv 를 이용하여 가상환경 Setting
 
 ---
@@ -86,23 +88,21 @@ categories: Django Python
 이제 장고를 설치하도록 하겠습니다.
 
 pipenv install django
-<br>
-
+<br><br>
 장고가 정상적으로 설치되었는지 확인
 
 → django-admin
-<br>
-
+<br><br>
 이제 서버 실행합니다!
 
 아래와 같이 입력하면 기본 포트 8000으로 서버를 실행해주고
 
 python [manage.py](http://manage.py) runserver
-
+<br><br>
 다음과 같이 입력하면 포트를 지정해 줄 수 있습니다.
 
 python [manage.py](http://manage.py) runserver 8888
-
+<br><br>
 다음과 같이 화면이 나온다면 장고 기본 셋팅은 끝났습니다
 
 ![image2](https://user-images.githubusercontent.com/79130276/112807229-9dbe3980-90b2-11eb-8b49-6afc461a2189.png)
