@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Django 개발환경 Setting"
-date:   2021-03-29 20:15:00 +0530
+title:  "Django Setting"
+date:   2021-03-29 20:15:00 0100
 categories: Django Python
 ---
 

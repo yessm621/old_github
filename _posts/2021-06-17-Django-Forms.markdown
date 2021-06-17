@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Django Forms"
-date:   2021-04-13 10:30:00 +0530
+date:   2021-06-17 14:00:00 0100
 categories: Django Python
 ---
 <br>
@@ -69,10 +69,11 @@ class LoginForm(forms.Form):
 <br>
 
 
-django 에서 post 로 전송 시 **{% csrf_token %}** 을 붙여줘야 한다
+django 에서 post 로 전송 시 **csrf_token** 을 붙여줘야 한다
 
 login.html
 ```html
+{% raw %}
 {% extends 'base.html' %}
 
 {% block page_title %}
@@ -89,6 +90,7 @@ login.html
         <button>Login</button>
     </form>
 {% endblock content %}
+{% endraw %}
 ```
 
 

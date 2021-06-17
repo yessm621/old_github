@@ -12,9 +12,9 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: nohsm
+  name: seungmi
   tagline: Developer.
-  date_format: "%b %-d, %Y"
+  date_format: "%Y-%m-%d %H:%M"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
@@ -27,7 +27,7 @@ plainwhite:
   # generate social links in footer
   social_links:
     github:  yessm621
-    linkedIn: in/samarsault
+    # linkedIn: in/samarsault
     #rss: rss
     #dribbble: jekyll
     #flickr:   jekyll
@@ -38,7 +38,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    #email: jekyll
+    email: yessm621@gmail.com
 
     # Mastodon instances
     # mastodon:

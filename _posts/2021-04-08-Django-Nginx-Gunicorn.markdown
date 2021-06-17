@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Django, Nginx, Gunicorn Setting (CentOS)"
-date:   2021-04-07 20:15:00 +0530
+date:   2021-04-07 20:15:00 0100
 categories: Django Nginx Gunicorn Linux
 ---
 <br>
