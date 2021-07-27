@@ -82,10 +82,10 @@ css transform 의 경우 기준점이 중앙이고 기준점 변경도 가능하
 **단순히 width, height 에 변화를 주었을 때**
 
 ```css
-	.box:hover {
-      width: 200px;
-      height: 200px;
-    }
+.box:hover {
+  width: 200px;
+  height: 200px;
+}
 ```
 <br>
 
@@ -93,9 +93,9 @@ css transform 의 경우 기준점이 중앙이고 기준점 변경도 가능하
 **transfrom 의 scale 을 두배로 하였을 때 (크기를 2배)**
 
 ```css
-	.box:hover {
-      transform: scale(2);
-    }
+.box:hover {
+  transform: scale(2);
+}
 ```
 
 
@@ -108,11 +108,11 @@ transform 을 사용하게 되면 단순히 D 블록에만 영향을 주고 다�
 **rotate: 회전**
 
 ```css
-		.box:hover {
-      transform: scale(2) rotate(45deg);
-    }
-		/* rotate: 회전, deg 가 단위이다. */
-		/* 즉, rotate(45deg); 은 회전기울기를 45도 기울이겠다는 뜻! */
+.box:hover {
+  transform: scale(2) rotate(45deg);
+}
+/* rotate: 회전, deg 가 단위이다. */
+/* 즉, rotate(45deg); 은 회전기울기를 45도 기울이겠다는 뜻! */
 ```
 
 <br>
@@ -121,15 +121,15 @@ transform 을 사용하게 되면 단순히 D 블록에만 영향을 주고 다�
 **skew: 비틀기**
 
 ```css
-		.box:hover {
-			transform: skew(30deg);
-    }
-		/* skew: 수평 비틀기, deg 가 단위이다. */
+.box:hover {
+	transform: skew(30deg);
+}
+/* skew: 수평 비틀기, deg 가 단위이다. */
 
-		.box:hover {
-			transform: skewY(30deg);
-    }
-		/* skewY: 수직 비틀기 */
+.box:hover {
+	transform: skewY(30deg);
+}
+/* skewY: 수직 비틀기 */
 ```
 
 <br>
@@ -138,15 +138,15 @@ transform 을 사용하게 되면 단순히 D 블록에만 영향을 주고 다�
 **translate: 이동**
 
 ```css
-		.box:hover {
-			transform: translate(30px, 10px);
-			/* transform: translateX(30px); */
-			/* transform: translateY(10px); */
-			/* transform: translateY(-10px); */
-    }
-		/* translate: 이동 */
-		/* 첫번째줄 처럼 , 로 쓰면 x축, y축 */
-		/* 두번째, 세번째줄 처럼 쓰면 각각 x축, y축 */
+.box:hover {
+	transform: translate(30px, 10px);
+	/* transform: translateX(30px); */
+	/* transform: translateY(10px); */
+	/* transform: translateY(-10px); */
+}
+/* translate: 이동 */
+/* 첫번째줄 처럼 , 로 쓰면 x축, y축 */
+/* 두번째, 세번째줄 처럼 쓰면 각각 x축, y축 */
 ```
 
 <br>
@@ -157,12 +157,12 @@ transform 을 사용하게 되면 단순히 D 블록에만 영향을 주고 다�
 → transform 의 default 기준점은 중앙이다.
 
 ```css
-		.box:hover {
-      transform: scale(1.5);
-      /* transform-origin: left top;
-      transform-origin: right bottom; */
-      transform-origin: 50% 0%;
-    }
+.box:hover {
+  transform: scale(1.5);
+  /* transform-origin: left top;
+  transform-origin: right bottom; */
+  transform-origin: 50% 0%;
+}
 ```
 
 transform-origin 으로 변경이 가능한데 left, right / top, bottom 을 사용할 수도 있지만
