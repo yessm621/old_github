@@ -101,11 +101,11 @@ true 시 insert, update, delete 실행 시 예외 발생 (default=false)
 public void addMember(Member member) throws Exception { }
 ```
 
+<br>
+
 ## @Transactional 만 붙이면 롤백이 안되는 이유?
 
 ---
-
-<br>
 
 @Transactional 은 기본적으로 unchecked Exception, Error 만을 롤백한다
 
