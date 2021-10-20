@@ -59,7 +59,7 @@ Preferences 에서 Gradle 을 검색하여
 
 ---
 
-lombok 을 설정하고 나서 preferences 에서 annotaion processors 를 설정해야 한다.
+lombok 을 설정하고 나서 preferences 에서 annotation processors 를 설정해야 한다.
 
 enable annotation processing 에 체크!
 
