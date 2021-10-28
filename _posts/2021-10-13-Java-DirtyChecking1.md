@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "변경 감지와 병합 (merge)"
+title:  "변경 감지와 병합 - 첫번째"
 date:   2021-10-13 14:20:00 0100
 categories: Java JPA
 ---
