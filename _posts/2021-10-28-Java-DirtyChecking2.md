@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "변경감지와 병합 - 두번째"
-date:   2021-10-20 17:20:00 0100
+date:   2021-10-28 17:20:00 0100
 categories: Java JPA
 ---
 <br>
